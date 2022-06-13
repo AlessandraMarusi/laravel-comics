@@ -15,7 +15,7 @@
     </div>
     <div class="container cardContainer">
         @foreach ($comics as $comic)
-        <a href="">
+        <a href="{{$comic['link']}}">
             <div class="card">
                 <div class="imgContainer">
                     <img src="{{$comic['thumb']}}" alt="">
